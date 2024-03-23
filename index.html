@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4bd8982105.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="carta forbice e sasso.png" type="image/x-icon">
+    <title>Carta,forbice e sasso</title>
+</head>
+<body class="bg-gradient-to-br from-slate-900 from-10% via-slate-100 via-30% to-gray-300 to-80% ">
+    <div>
+        <img src="carta forbice e sasso.png" alt="logo Carta,forbice e Sasso" class="w-[100px] h-[100px] p-2 m-4 ml-10">
+    </div>
+    <!--upper-container -->
+    <div class="flex justify-center items-center mt-8">
+        <div id="scissor" class="m-4 w-[100px] h-[100px] ju"><i class="fa-solid fa-hand-scissors text-slate-800 text-[100px] active:text-black"></i></div>
+        <div id="handPaper" class="m-4 w-[100px] h-[100px]"><i class="fa-solid fa-hand text-[100px] text-slate-800 active:text-black"></i></div>
+        <div id="handRock" class="m-4 w-[100px] h-[100px]"><i class="fa-solid fa-hand-back-fist text-[100px] text-slate-800 active:text-black"></i></div>
+    </div>
+    <!--lower-container-->
+    <div class="flex justify-center items-center mt-20">
+        <div><p class="text-[20px] font-semibold">Punteggio User: <span id="userPoints">0</span></p></div>
+        <div id="UserChoice" class="flex justify-center items-center w-[200px] h-[200px] border-2 border-black m-4"></div>
+        <div id="aiChoice" class="flex justify-center items-center w-[200px] h-[200px] border-2 border-black m-4"></div>
+        <div><p class="text-[20px] font-semibold">Punteggio PC: <span id="pcPoints">0</span></p></div>
+    </div>
+    <div class="flex justify-center items-center mt-6"><button id="refresh" class="text-[80px] hover:animate-spin"><i class="fa-solid fa-rotate-right text-slate-800"></i></button></div>
+    <script src="script.js"></script>
+</body>
+</html>
